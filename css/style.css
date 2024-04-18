@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: 1px solid #1b85dc;
+    height: 10vh;
+    display: flex;
+}
+
+body{
+    background: rgb(0,179,255);
+    background: linear-gradient(90deg, rgba(0,179,255,1) 0%, rgba(112,193,244,1) 34%, rgba(96,194,255,1) 55%, rgba(194,230,255,1) 73%, rgba(231,245,255,1) 93%);
+}
+
+#logo {
+    width: 30vw;
+    height: 10vh;
+}
+
+#logo img {
+    height: 8vh;
+}
+
+#display {
+    width: 50vw;
+}
+
+#user {
+    width: 20vw;
+}
+
+main {
+    margin: 2vh 2vw;
+    min-height: 80vh;
+}
+
+#notes {
+    display: flex; /*distribui de forma igual*/
+    flex-wrap: wrap !important;/*os itens vao descer para baixo se não tiver espaço*/
+    justify-content: space-around;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+#modal-view {
+    border: 1px solid #1b85dc;
+    background-color: #ffff;
+    border-radius: 10px;
+    position: absolute;
+    display: none;
+    width: 90vw;
+    padding: 10px;
+
+}
+
+#close-modal {
+    float: right;
+}
+
+#modal {
+    border: 1px solid #1b85dc;
+    position: absolute;
+    padding: 2vh 2vw;
+    display: none;
+    width: 90vw;
+}
+
+#controls-note {
+    display: flex;
+    gap: 10px;
+}
